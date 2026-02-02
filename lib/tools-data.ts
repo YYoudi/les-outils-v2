@@ -29,5 +29,15 @@ export const tools: Tool[] = [
     category: "security",
     tags: ["hash", "security", "encryption"],
     status: "published"
+  },
+  {
+    id: "generateur-de-mots-de-passe-securises",
+    slug: "generateur-de-mots-de-passe-securises",
+    title: "Générateur de Mots de Passe Sécurisés",
+    description: "Générez des mots de passe forts et sécurisés avec des options personnalisables",
+    icon: "Key",
+    category: "security",
+    tags: ["password", "security", "generator", "free"],
+    status: "published"
   }
 ]
