@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://les-outils.fr/sitemap.xml
