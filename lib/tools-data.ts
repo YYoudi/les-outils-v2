@@ -10,16 +10,6 @@ export interface Tool {
 }
 
 export const tools: Tool[] = [
-  id: string
-  slug: string
-  title: string
-  description: string
-  icon: string
-  category: string
-  tags: string[]
-  status: "published" | "draft"
-}
-
   {
     id: "markdown-editor",
     slug: "markdown-editor",
@@ -40,16 +30,6 @@ export const tools: Tool[] = [
     tags: ["hash", "security", "encryption"],
     status: "published"
   },
-  {
-    id: "generateur-de-mots-de-passe-securises",
-    slug: "generateur-de-mots-de-passe-securises",
-    title: "Générateur de Mots de Passe Sécurisés",
-    description: "Générez des mots de passe forts et sécurisés avec des options personnalisables",
-    icon: "Key",
-    category: "security",
-    tags: ["password", "security", "generator", "free"],
-    status: "published"
-  }
   {
     id: "generateur-de-password-securises",
     slug: "generateur-de-password-securises",
